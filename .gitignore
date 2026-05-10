@@ -1,0 +1,29 @@
+# UV / Python
+.venv/
+__pycache__/
+*.py[cod]
+.python-version
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+
+# Tests / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking / tooling
+.mypy_cache/
+.ruff_cache/
+
+# macOS / editors
+.DS_Store
+.vscode/
+.idea/
