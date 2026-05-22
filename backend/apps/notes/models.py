@@ -1,6 +1,6 @@
 from django.db import models
-from apps.common.models import BaseModel
-from apps.accounts.models import User
+from backend.apps.common.models import BaseModel
+from backend.apps.accounts.models import User
 
 class Tags(models.TextChoices):
     STUDY = "STUDY", "Study"
