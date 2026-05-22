@@ -1,0 +1,7 @@
+<h1>Modifica nota</h1>
+<form action="{% url 'notes:update_note' note.id %}" method="post">
+    {% csrf_token %}
+{{form}}
+<input type="submit" value="Salva">
+</form>
+<a href="{% url 'notes:home' %}">Torna Indietro</a>

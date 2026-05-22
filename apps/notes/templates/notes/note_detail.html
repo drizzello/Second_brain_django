@@ -1,0 +1,12 @@
+
+<h1>Nota {{note.id}}</h1>
+<div>
+    Ecco la tua nota:
+            <p>
+                - <b>Title</b>: {{ note.title }} <br>
+                - <b>Content</b>: {{ note.content }} <br>
+                - <b>Author</b>: {{ note.owner }} <br>
+            </p>
+</div>
+
+<a href="{% url 'notes:list' %}">Torna Indietro</a>

@@ -1,0 +1,9 @@
+<h1>Aggiungi una nuova nota</h1>
+
+<form action="{% url 'notes:add_note' %}" method="post">
+    {% csrf_token %}
+{{form}}
+<input type="submit" value="Aggiungi">
+</form>
+<a href="{% url 'notes:home' %}">Torna Indietro</a>
+
