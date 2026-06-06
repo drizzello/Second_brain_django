@@ -2,10 +2,10 @@ from ninja import Schema
 from .models import Tags
 
 class NoteOut(Schema):
+    id: int
     title: str
     content: str
     tag: str
-
 
 class NoteUpdateIn(Schema):
     title: str
