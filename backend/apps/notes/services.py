@@ -1,7 +1,7 @@
 from openai import OpenAI
 from pydantic import BaseModel
-from backend.apps.accounts.models import User
-from backend.apps.notes.models import Tags, Note
+from apps.accounts.models import User
+from apps.notes.models import Tags, Note
 from django.conf import settings
 
 DEBUG = True

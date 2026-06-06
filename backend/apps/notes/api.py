@@ -1,8 +1,8 @@
 from ninja import NinjaAPI
 
-from backend.apps.notes.services import create_note
-from backend.apps.notes.schema import NoteCreateIn, NoteOut, NotFoundSchema, NoteUpdateIn
-from backend.apps.notes.models import Note
+from apps.notes.services import create_note
+from apps.notes.schema import NoteCreateIn, NoteOut, NotFoundSchema, NoteUpdateIn
+from apps.notes.models import Note
 from ninja.security import SessionAuth
 
 api = NinjaAPI(auth=SessionAuth())

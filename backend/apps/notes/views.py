@@ -1,7 +1,7 @@
 from django.shortcuts import get_object_or_404, redirect, render
-from backend.apps.notes.models import Note
-from backend.apps.accounts.models import User
-from backend.apps.notes.services import create_note
+from apps.notes.models import Note
+from apps.accounts.models import User
+from apps.notes.services import create_note
 from .forms import NoteForm
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required

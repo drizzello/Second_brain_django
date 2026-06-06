@@ -1,5 +1,5 @@
 from django import forms
-from backend.apps.accounts.models import User
+from apps.accounts.models import User
 
 
 class UserLoginForm(forms.Form):

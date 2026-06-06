@@ -1,4 +1,4 @@
 from django.contrib import admin
-from backend.apps.notes.models import Note
+from apps.notes.models import Note
 
 admin.site.register(Note)

@@ -1,5 +1,5 @@
 from django import forms
-from backend.apps.notes.models import Note
+from apps.notes.models import Note
 
 
 class NoteForm(forms.ModelForm):
